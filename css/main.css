@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'PoppinsMedium';
+    src: url('../fonts/Poppins-Medium.otf');
+}
+
+@font-face {
+    font-family: 'PoppinsRegular';
+    src: url('../fonts/Poppins-Regular.otf');
+}
+
 :root {
     --color-bg: #fffdf7;
     --color-black: #212121;
@@ -9,4 +19,19 @@
     --color-red: #e74c3c;
     --color-green: #2ecc71;
     --color-separate: #ccc;
+}
+
+html, body {
+    font-family: 'PoppinssRegular', 'Rubik', sans-serif;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+}
+
+b {
+    font-family: 'PoppinsMedium', 'Rubik', sans-serif;
+}
+
+.nav-link {
+    color: var(--color-black);
+    padding: 0 35px 0 35px !important;
 }
