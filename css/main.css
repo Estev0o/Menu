@@ -41,12 +41,12 @@ b {
     color: var(--color-black) !important;
     border-radius: 20px;
     padding: 15px 25px;
-    font-size: 25px;
-    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
 }
 
 .btn-icon {
-    padding-left: 75px;
+    padding-right: 75px;
 }
 
 .btn-icon .icon {
