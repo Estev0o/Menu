@@ -81,6 +81,7 @@ a.navbar-brand {
 .btn-social {
     width: 50px;
 }
+
 .banner {
     padding-top: 110px;
     padding-bottom: 200px;
@@ -114,6 +115,23 @@ a.navbar-brand {
 
 .btn-icon-left {
     padding-left: 70px;
+}
+
+.card-banner {
+    height: 450px;
+    width: 450px;
+    border-radius: 170px;
+    background-color: #f4c949;
+    position: absolute;
+    right: 0;
+    top: -80px;
+}
+
+.img-banner {
+    position: absolute;
+    width: 570px;
+    top: 30px;
+    right: 15px;
 }
 
 .btn-icon-left span.icon-left {
