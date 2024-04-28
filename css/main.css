@@ -71,6 +71,16 @@ a.navbar-brand {
     padding-top: 6px;
 }
 
+
+.btn-sm {
+    padding: 9px 15px !important;
+    border-radius: 15px !important;
+    font-size: 18px !important;
+}
+
+.btn-social {
+    width: 50px;
+
 .banner {
     padding-top: 110px;
     padding-bottom: 200px;
