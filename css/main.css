@@ -256,3 +256,31 @@ a.navbar-brand {
     padding-top: 50px;
     padding-bottom: 150px;
 }
+
+.container-menu {
+    margin-bottom: 40px;
+}
+
+.card-item {
+    height: 360px;
+}
+
+.card-item .img-product img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card-item .title-product {
+    color: var(--color-black);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 40px;
+    margin-bottom: 0px;
+}
+
+.card-item .price-product {
+    color: var(--color-primary);
+    font-size: 24px;
+
+}
