@@ -370,3 +370,26 @@ a.navbar-brand {
     position: absolute;
     left: 0;
 }
+
+.conteiner-grade-deposition {
+    display: flex;
+}
+
+.deposition {
+    margin-top: 70px;
+}
+
+.img-deposition {
+    width: 65px;
+    height: 75px;
+    background-color: var(--color-white);
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 15px;
+}
+
+#deposition-1 .img-deposition {
+    background-image: url(../img/diego.jpg); 
+    background-size: cover;
+}
