@@ -393,3 +393,17 @@ a.navbar-brand {
     background-image: url(../img/diego.jpg); 
     background-size: cover;
 }
+
+.name-deposition {
+    color: var(--color-black);
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.grade-deposition {
+
+}
+
+.grade-deposition span {
+    
+}
