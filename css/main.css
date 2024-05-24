@@ -401,9 +401,9 @@ a.navbar-brand {
 }
 
 .grade-deposition {
-
+    color: var(--color-primary);
 }
 
 .grade-deposition span {
-    
+    color: var(--color-black);
 }
