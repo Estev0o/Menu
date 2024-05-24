@@ -381,7 +381,7 @@ a.navbar-brand {
 
 .img-deposition {
     width: 65px;
-    height: 75px;
+    height: 65px;
     background-color: var(--color-white);
     border-radius: 50px;
     background-repeat: no-repeat;
@@ -400,10 +400,33 @@ a.navbar-brand {
     margin-bottom: 5px;
 }
 
-.grade-deposition {
+.note-deposition {
     color: var(--color-primary);
 }
 
-.grade-deposition span {
+.note-deposition span {
     color: var(--color-black);
+}
+
+.text-depositions {
+    display: flex;
+    font-size: 16px;
+    color: var(--color-black);
+}
+
+.text-depositions i {
+    font-size: 35px;
+    color: var(--color-primary);
+}
+
+.text-depositions i:first-child {
+    padding-left: 10px;
+    padding-right: 35px;
+}
+
+.text-depositions i:last-child {
+    padding-left: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
