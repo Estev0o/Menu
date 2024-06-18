@@ -32,6 +32,10 @@ b {
     font-family: 'PoppinsMedium', 'Rubik', sans-serif;
 }
 
+.hidden {
+    display: none;
+}
+
 .color-primary {
     color: var(--color-primary);
 }
@@ -362,6 +366,14 @@ a.navbar-brand {
     padding-bottom: 150px;
 }
 
+.background-depositions {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 500px;
+    background-image: url(../img/bg-icons-1.png);
+}
+
 .card-depositions {
     height: 390px;
     width: 390px;
@@ -394,6 +406,16 @@ a.navbar-brand {
     background-size: cover;
 }
 
+#deposition-2 .img-deposition {
+    background-image: url(../img/ana.jpg); 
+    background-size: cover;
+}
+
+#deposition-3 .img-deposition {
+    background-image: url(../img/joao.jpg); 
+    background-size: cover;
+}
+
 .name-deposition {
     color: var(--color-black);
     font-size: 22px;
@@ -408,23 +430,23 @@ a.navbar-brand {
     color: var(--color-black);
 }
 
-.text-depositions {
+.text-deposition {
     display: flex;
     font-size: 16px;
     color: var(--color-black);
 }
 
-.text-depositions i {
+.text-deposition i{
     font-size: 35px;
     color: var(--color-primary);
 }
 
-.text-depositions i:first-child {
+.text-deposition i:first-child {
     padding-left: 10px;
     padding-right: 35px;
 }
 
-.text-depositions i:last-child {
+.text-deposition i:last-child {
     padding-left: 45px;
     display: flex;
     justify-content: center;
