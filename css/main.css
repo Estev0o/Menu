@@ -478,3 +478,28 @@ a.navbar-brand {
     width: 70%;
     top: 0px;
 }
+
+footer {
+    background-color: var(--color-secondary);
+}
+
+.container-logo-footer {
+    width: 150px;
+}
+
+.container-logo-footer, .container-text-footer, .container-social-footer {
+    display: flex;
+    align-items: center;
+}
+
+.container-logo-footer {
+    justify-content: start;
+}
+
+.container-text-footer {
+    justify-content: center;
+}
+
+.container-social-footer {
+    justify-content: end;
+}
