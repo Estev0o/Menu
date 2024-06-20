@@ -501,16 +501,15 @@
         </div>
     </footer>
 
-    <section class="modal-full m-0 p-0" id="modalShopping">
+    <section class="modal-full" id="modalShopping">
 
         <div class="m-header">
             <div class="container">
                 <a class="btn btn-white btn-sm float-right"> Fechar</a>
-
                 <div class="steps">
-                    <div class="steps step1 active">1</div>
-                    <div class="steps step2">2</div>
-                    <div class="steps step3">3</div>
+                    <div class="step step1 active">1</div>
+                    <div class="step step2">2</div>
+                    <div class="step step3">3</div>
                 </div>
                 <p class="title-shopping mt-4"> 
                     <b id="lblTitleStep">Seu carrinho:</b>
@@ -519,11 +518,77 @@
         </div>
 
         <div class="m-body">
+            <div class="container">
+                <div id="itemShopping mr-0 ml-0">
+                    <div class="col-12 item-shopping">
+                        <div class="img-product">
+                            <img src="img/cardapio/burguers/burger-au-poivre-kit-4-pack.3ca0e39b02db753304cd185638dad518.jpg" alt="">
+                        </div>
+                        <div class="data-products">
+                            <p class="title-product"><b>Nome produto</b></p>
+                            <p class="price-product"><b>R$ 149,90</b></p>
+                        </div>
+                        <div class="add-buy">
+                            <span class="btn-minus"><i class="fas fa-minus"></i></span>
+                            <span class="add-number-itens">0</span>
+                            <span class="btn-plus"><i class="fas fa-plus"></i></span>
+                            <span class="btn btn-remove"><i class="fa fa-times"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="delivery mr-0 ml-0 hidden"></div>
+                <div id="resumeShop mr-0 ml-0 hidden"></div>
+            </div>
+
+            <div class="container">
+                <div id="itemShopping mr-0 ml-0">
+                    <div class="col-12 item-shopping">
+                        <div class="img-product">
+                            <img src="img/cardapio/burguers/burger-au-poivre-kit-4-pack.3ca0e39b02db753304cd185638dad518.jpg" alt="">
+                        </div>
+                        <div class="data-products">
+                            <p class="title-product"><b>Nome produto</b></p>
+                            <p class="price-product"><b>R$ 149,90</b></p>
+                        </div>
+                        <div class="add-buy">
+                            <span class="btn-minus"><i class="fas fa-minus"></i></span>
+                            <span class="add-number-itens">0</span>
+                            <span class="btn-plus"><i class="fas fa-plus"></i></span>
+                            <span class="btn btn-remove"><i class="fa fa-times"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="delivery mr-0 ml-0 hidden"></div>
+                <div id="resumeShop mr-0 ml-0 hidden"></div>
+            </div>
 
         </div>
 
         <div class="m-footer">
+            <div class="container">
+                <div class="container-total text-right mb-4">
+                    <p class="mb-0">
+                        <span>Subtotal:</span>
+                        <span id="lblSubTotal">R$ 100,00</span>
+                    </p>
 
+                    <p class="mb-0 text-delivery">
+                        <span><i class="fas fa-motorcycle"></i>Entrega:</span>
+                        <span id="lblValueDelivery">R$ 10,00</span>
+                    </p>
+
+                    <p class="mb-0 text-total">
+                        <span><b>Total:</b></span>
+                        <span class="value-total" id="lblValueTotal"><b>R$ 200,00</b></span>
+                    </p>
+                </div>
+                <a class="btn btn-yellow float-right" id="btnStepOrder">Continuar</a>
+                <a class="btn btn-yellow float-right hidden" id="btnStepResume">Revisar pedido</a>
+                <a class="btn btn-yellow float-right hidden" id="btnStepSend">Enviar pedido</a>
+                <a class="btn btn-white float-right mr-3 hidden" id="btnStepback">Voltar</a>
+            </div>
         </div>
 
     </section>
