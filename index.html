@@ -511,7 +511,7 @@
                     <div class="step step2">2</div>
                     <div class="step step3">3</div>
                 </div>
-                <p class="title-shopping mt-4"> 
+                <p class="title-shopping mt-4">
                     <b id="lblTitleStep">Seu carrinho:</b>
                 </p>
             </div>
@@ -522,7 +522,8 @@
                 <div id="itemShopping" class="row mr-0 ml-0 hidden">
                     <div class="col-12 item-shopping">
                         <div class="img-product">
-                            <img src="img/cardapio/burguers/burger-au-poivre-kit-4-pack.3ca0e39b02db753304cd185638dad518.jpg" alt="">
+                            <img src="img/cardapio/burguers/burger-au-poivre-kit-4-pack.3ca0e39b02db753304cd185638dad518.jpg"
+                                alt="">
                         </div>
                         <div class="data-products">
                             <p class="title-product"><b>Nome produto</b></p>
@@ -537,12 +538,133 @@
                     </div>
                 </div>
 
-                <div id="delivery mr-0 ml-0">
+                <div id="delivery" class="row mr-0 ml-0 hidden">
                     <div class="col-4 ">
+                        <div class="form-group container-cep">
+                            <label>CEP:</label>
+                            <input id="textCep" type="text" class="form-control" />
+                            <a class="btn btn-yellow btn-sm"><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
 
+                    <div class="col-8"></div>
+
+
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label>Endereço</label>
+                            <input id="textEndereco" type="text" class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label>Bairro</label>
+                            <input id="textBairro" type="text" class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="col-2">
+                        <div class="form-group">
+                            <label>Número</label>
+                            <input id="textNumero" type="text" class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label>Cidade</label>
+                            <input id="textCidade" type="text" class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label>Complemento</label>
+                            <input id="textBairro" type="text" class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="col-2">
+                        <div class="form-group">
+                            <label>UF</label>
+                            <select id="ddlUf" type="text" class="form-control">
+                                <option class="selected disabled">UF</option disabled>
+                                <option value="AC">Acre</option>
+                                <option value="AL">Alagoas</option>
+                                <option value="AP">Amapá</option>
+                                <option value="AM">Amazonas</option>
+                                <option value="BA">Bahia</option>
+                                <option value="CE">Ceará</option>
+                                <option value="DF">Distrito Federal</option>
+                                <option value="ES">Espírito Santo</option>
+                                <option value="GO">Goiás</option>
+                                <option value="MA">Maranhão</option>
+                                <option value="MT">Mato Grosso</option>
+                                <option value="MS">Mato Grosso do Sul</option>
+                                <option value="MG">Minas Gerais</option>
+                                <option value="PA">Pará</option>
+                                <option value="PB">Paraíba</option>
+                                <option value="PR">Paraná</option>
+                                <option value="PE">Pernambuco</option>
+                                <option value="PI">Piauí</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="RN">Rio Grande do Norte</option>
+                                <option value="RS">Rio Grande do Sul</option>
+                                <option value="RO">Rondônia</option>
+                                <option value="RR">Roraima</option>
+                                <option value="SC">Santa Catarina</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="SE">Sergipe</option>
+                                <option value="TO">Tocantins</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div id="resumeShop mr-0 ml-0 hidden">
+                    <div class="col-12">
+                        <p class="title-shopping mt-4"><b>Itens do pedido:</b></p>
+                    </div>
+
+
+                    <div class="col-12">
+                        <div class="row" id="listItensResume">
+                            <div class="col-12 item-shopping resume">
+                                <div class="img-produto-resume">
+                                    <img src="img/cardapio/burguers/goldbelly-burger-blend-1-lb.13a21b66edf7173a59c75c3a6d2f981b.jpg"
+                                        alt="">
+                                </div>
+                                <div class="data-products">
+                                    <p class="title-product-resume"><b>Nome Produto</b></p>
+                                    <p class="price-product-resume"><b>R$ 100,00</b></p>
+                                </div>
+
+                                <p class="qtd-products-resume">
+                                    x <b>3</b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <p class="title-shopping mt-4"><b>Local da entrega</b></p>
+                    </div>
+                    <div class="col-12 item-shopping resume">
+                        <div class="img-map">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </div>
+                        <div class="data-products">
+                            <p class="text-delivery"><b id="resumeDelivery">Rua teste, 200, bairro teste</b></p>
+                            <p id="cityDelivery" class="city-delivery">
+                                Cidade-sp/12929829
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div id="resumeShop mr-0 ml-0 hidden"></div>
             </div>
 
         </div>
